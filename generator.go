@@ -258,6 +258,7 @@ func Generate(source, dest, pkgName string, extensions []string) {
 			buffer.WriteString(`
 				import "html"
 				import "unsafe"
+    				import "bytes"
 
 				import "github.com/shiyanhui/hero"
 			`)
